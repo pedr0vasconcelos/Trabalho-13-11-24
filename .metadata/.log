@@ -1,0 +1,314 @@
+!SESSION 2024-11-13 21:23:58.458 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.committers.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.committers.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-13 21:24:33.936
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pedro Vasconcelos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.monitoring 2 0 2024-11-13 21:25:24.266
+!MESSAGE UI freeze of 0,70s at 21:25:23.557
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.266
+!MESSAGE Sample at 21:25:23.891 (+0,334s)
+Thread 'main' tid=1 (BLOCKED)
+!STACK 0
+Stack Trace
+	at org.eclipse.jdt.launching.JavaRuntime.initializeVMs(JavaRuntime.java:3204)
+	at org.eclipse.jdt.launching.JavaRuntime.getDefaultVMId(JavaRuntime.java:590)
+	at org.eclipse.jdt.launching.JavaRuntime.getDefaultVMInstall(JavaRuntime.java:535)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne.initializeDefaultVM(NewJavaProjectWizardPageOne.java:1350)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne.<init>(NewJavaProjectWizardPageOne.java:1335)
+	at org.eclipse.jdt.internal.ui.wizards.JavaProjectWizard.addPages(JavaProjectWizard.java:67)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:634)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1092)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:119)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.jface.action.ActionContributionItem$$Lambda/0x000000003e75af60.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$$Lambda/0x000000003e35d3a8.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base@22.0.2/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@22.0.2/java.lang.invoke.LambdaForm$MH/0x000000003e0c6800.invoke(LambdaForm$MH)
+	at java.base@22.0.2/java.lang.invoke.LambdaForm$MH/0x000000003e0c6c00.invokeExact_MT(LambdaForm$MH)
+	at java.base@22.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+	at java.base@22.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@22.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.266
+!MESSAGE Sample at 21:25:24.252 (+0,361s)
+Thread 'main' tid=1 (BLOCKED)
+!STACK 0
+Stack Trace
+	at org.eclipse.jdt.launching.JavaRuntime.initializeVMs(JavaRuntime.java:3204)
+	at org.eclipse.jdt.launching.JavaRuntime.getDefaultVMId(JavaRuntime.java:590)
+	at org.eclipse.jdt.launching.JavaRuntime.getDefaultVMInstall(JavaRuntime.java:535)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne.initializeDefaultVM(NewJavaProjectWizardPageOne.java:1350)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne.<init>(NewJavaProjectWizardPageOne.java:1335)
+	at org.eclipse.jdt.internal.ui.wizards.JavaProjectWizard.addPages(JavaProjectWizard.java:67)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:634)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1092)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:119)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.jface.action.ActionContributionItem$$Lambda/0x000000003e75af60.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$$Lambda/0x000000003e35d3a8.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base@22.0.2/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@22.0.2/java.lang.invoke.LambdaForm$MH/0x000000003e0c6800.invoke(LambdaForm$MH)
+	at java.base@22.0.2/java.lang.invoke.LambdaForm$MH/0x000000003e0c6c00.invokeExact_MT(LambdaForm$MH)
+	at java.base@22.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+	at java.base@22.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@22.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.266
+!MESSAGE Thread 'Common-Cleaner' tid=20 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@05ffa6fc
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@22.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+	at java.base@22.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.267
+!MESSAGE Thread 'Active Thread: Equinox Container: d4eb9849-fa4a-4291-8c65-075d81f71636' tid=32 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@662e8f4b
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@22.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.267
+!MESSAGE Thread 'SCR Component Actor' tid=38 (WAITING)
+Waiting for: java.util.LinkedList@45e7ece5
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.267
+!MESSAGE Thread 'EMF Reference Cleaner' tid=42 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@41127067
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:234)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:80)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.267
+!MESSAGE Thread 'Worker-JM' tid=43 (WAITING)
+Waiting for: java.util.ArrayList@61d5d956
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.267
+!MESSAGE Thread 'Gogo shell' tid=44 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d04c5fc
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.267
+!MESSAGE Thread 'Git Repository Closer' tid=49 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@15bd47bd
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:234)
+	at org.eclipse.egit.core.RepositoryCache$Closer.run(RepositoryCache.java:453)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.267
+!MESSAGE Thread 'JNA Cleaner' tid=51 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5a6d3335
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@22.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.267
+!MESSAGE Thread 'Java indexing' tid=52 (WAITING)
+Waiting for: org.eclipse.jdt.internal.core.search.indexing.IndexManager@41dd26a1
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/java.lang.Object.wait0(Native Method)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:375)
+	at java.base@22.0.2/java.lang.Object.wait(Object.java:348)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:503)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager$$Lambda/0x000000003e7eb7d0.run(Unknown Source)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.274
+!MESSAGE Thread 'pool-1-thread-1' tid=66 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@0ddcacdf
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.274
+!MESSAGE Thread 'pool-2-thread-1' tid=68 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3e9bc2ca
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@22.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4011)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3959)
+	at java.base@22.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@22.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@22.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@22.0.2/java.lang.Thread.runWith(Thread.java:1583)
+	at java.base@22.0.2/java.lang.Thread.run(Thread.java:1570)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.274
+!MESSAGE Thread 'Thread-7' tid=92 (TIMED_WAITING)
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/java.lang.Thread.sleepNanos0(Native Method)
+	at java.base@22.0.2/java.lang.Thread.sleepNanos(Thread.java:491)
+	at java.base@22.0.2/java.lang.Thread.sleep(Thread.java:522)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-11-13 21:25:24.274
+!MESSAGE Thread 'ForkJoinPool.commonPool-worker-1' tid=93 (RUNNABLE)
+Holding: java.util.concurrent.locks.ReentrantLock$NonfairSync@70c5e758
+!STACK 0
+Stack Trace
+	at java.base@22.0.2/java.util.zip.ZipFile$ZipFileInflaterInputStream.<init>(ZipFile.java:441)
+	at java.base@22.0.2/java.util.zip.ZipFile$ZipFileInflaterInputStream.<init>(ZipFile.java:434)
+	at java.base@22.0.2/java.util.zip.ZipFile.getInputStream(ZipFile.java:401)
+	at org.eclipse.osgi.storage.bundlefile.ZipBundleFile.doGetInputStream(ZipBundleFile.java:101)
+	at org.eclipse.osgi.storage.bundlefile.ZipBundleFile.doGetInputStream(ZipBundleFile.java:1)
+	at org.eclipse.osgi.storage.bundlefile.CloseableBundleFile.getInputStream(CloseableBundleFile.java:482)
+	at org.eclipse.osgi.storage.bundlefile.ZipBundleEntry.getInputStream(ZipBundleEntry.java:58)
+	at org.eclipse.osgi.storage.bundlefile.BundleEntry.getBytes(BundleEntry.java:97)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassImpl(ClasspathManager.java:678)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:657)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:637)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:616)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:520)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base@22.0.2/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at org.eclipse.jdt.internal.launching.StandardVMType.validateInstallLocation(StandardVMType.java:646)
+	at org.eclipse.jdt.internal.launching.VMDefinitionsContainer.addVM(VMDefinitionsContainer.java:138)
+	at org.eclipse.jdt.launching.JavaRuntime.initializeVMs(JavaRuntime.java:3241)
+	at org.eclipse.jdt.launching.JavaRuntime.getDefaultVMId(JavaRuntime.java:590)
+	at org.eclipse.jdt.launching.JavaRuntime.getDefaultVMInstall(JavaRuntime.java:535)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.getDefaultJVMName(NewJavaProjectWizardPageOne.java:599)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.getDefaultJVMLabel(NewJavaProjectWizardPageOne.java:636)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.initializeJvmFields(NewJavaProjectWizardPageOne.java:473)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup$$Lambda/0x000000003ededed0.run(Unknown Source)
+	at java.base@22.0.2/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base@22.0.2/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033)
+	at java.base@22.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)

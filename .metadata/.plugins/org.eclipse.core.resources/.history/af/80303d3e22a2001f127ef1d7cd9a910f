@@ -1,0 +1,23 @@
+package service;
+
+import model.BichinhoVirtual;
+
+public class BichinhoService {
+
+    public void comer(BichinhoVirtual bichinho) {
+        System.out.println(bichinho.getNome() + " está comendo.");
+    }
+
+    public void correr(BichinhoVirtual bichinho) {
+        System.out.println(bichinho.getNome() + " está correndo.");
+    }
+
+    public void dormir(BichinhoVirtual bichinho) {
+        System.out.println(bichinho.getNome() + " está dormindo.");
+    }
+
+    public void morrer(BichinhoVirtual bichinho) {
+        System.out.println(bichinho.getNome() + " morreu.");
+        bichinho.setVivo(false);
+    }
+}
